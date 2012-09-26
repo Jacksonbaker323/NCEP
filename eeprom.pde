@@ -5,38 +5,38 @@ int destinationnumber()
 {
   if (EEPROM.read(1) == 1)
     {
-      destinationLat = 33.2132;
-      destinationLon = -87.5458;
+      destinationLat = REDACTED FLOAT;
+      destinationLon = REDACTED FLOAT;
       return 1;
     }
 else if(EEPROM.read(2) == 1)
     {
-      destinationLat = 33.2084;
-      destinationLon = -87.5459;
+      destinationLat = REDACTED FLOAT;
+      destinationLon = REDACTED FLOAT;
       return 2;
     }
 else if(EEPROM.read(3) == 1)
      {
-      destinationLat = 33.2126;
-      destinationLon = -87.5440;
+      destinationLat = REDACTED FLOAT;
+      destinationLon = REDACTED FLOAT;
       return 3;
      }
 else if(EEPROM.read(4) == 1)
      {
-      destinationLat = 33.2175;
-      destinationLon = -87.5895;
+      destinationLat = REDACTED FLOAT;
+      destinationLon = REDACTED FLOAT;
       return 4;  
    }
 else if(EEPROM.read(5) == 1)
      {
-      destinationLat = 31.2120;
-      destinationLon = -85.3946;
+      destinationLat = REDACTED FLOAT;
+      destinationLon = REDACTED FLOAT;
       return 5;
      }
 else if(EEPROM.read(6) == 1)
      {
-      destinationLat = 30.1228;
-      destinationLon = -85.7343;
+      destinationLat = REDACTED FLOAT;
+      destinationLon = REDACTED FLOAT;
       return 6;
      }
 else
